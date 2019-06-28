@@ -1,0 +1,28 @@
+page-home {
+  ion-content{
+    background-image: url("../../assets/imgs/copa.jfif");
+    background-size: cover;
+
+  }
+  .flex-container {
+    display: flex;
+
+    flex-direction: column;
+    height: 570px;
+
+  }
+
+  .flex-container > div {
+    width: 500px;
+    height: 500px;
+    margin-left: -425px;
+    margin-bottom: 90px;
+    border-radius: 70%;
+    padding: 20px;
+    font-size: 30px;
+    flex-wrap: wrap;
+   line-height: 40px;
+  }
+
+
+}
